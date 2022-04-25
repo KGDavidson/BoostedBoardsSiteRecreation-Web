@@ -269,7 +269,7 @@ body {
     align-items: center;
 }
 
-.section1 {
+.evolvePromo {
     margin-top: 50px;
     text-align: center;
     display: flex;
@@ -277,7 +277,7 @@ body {
     align-items: center;
 }
 
-.section1 .header {
+.evolvePromo .header {
     width: 679px;
     height: 157px;
     display: flex;
@@ -291,14 +291,14 @@ body {
     font-style: normal;
 }
 
-.section1 .header div {
+.evolvePromo .header div {
     font-size: 32px;
     font-weight: 700;
     line-height: 1.125;
     width: 396px;
 }
 
-.section1 .content {
+.evolvePromo .content {
     margin-top: 42px;
     display: flex;
     flex-direction: row;
@@ -306,29 +306,29 @@ body {
     justify-content: center;
 }
 
-.section1 .zoomImage {
+.evolvePromo .zoomImage {
     width: 580px;
     height: 644px;
     overflow: hidden;
     margin-right: 20px;
 }
 
-.section1 .zoomImage img {
+.evolvePromo .zoomImage img {
     width: 100%;
     transition: 0.3s all ease-in-out;
 }
 
-.section1 .zoomImage:hover img {
+.evolvePromo .zoomImage:hover img {
     transform: scale(1.1);
 }
 
-.section1 .text {
+.evolvePromo .text {
     width: 40%;
     text-align: left;
     margin-left: 20px;
 }
 
-.section1 .text div {
+.evolvePromo .text div {
     font-size: 32px;
     font-weight: 700;
     line-height: 1.125;
@@ -342,10 +342,55 @@ body {
     border-color: #cfcfcf;
     border-width: 2px;
     border-bottom: none;
+    margin: 0;
 }
 
-.section2 {
+.topAlignedBanner,
+.centeredBanner,
+.videoSection,
+.sectionProducts,
+.featureList {
     margin-top: 20px;
+}
+
+.boostedRevSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+
+.boostedRevSection .header {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.125;
+    width: 396px;
+}
+
+.boostedRevSection .text {
+    width: 40%;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.boostedRevSection img {
+    margin-right: 20px;
+}
+
+.boostedRevSection .text .header {
+    align-items: flex-start;
+    justify-content: center;
+    height: auto;
+}
+
+.boostedRevSection .text p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 30px;
 }
 
 .splashSection {
@@ -391,4 +436,178 @@ body {
 
 .splashLink.wide {
     width: 200px;
+}
+
+.splashLink.narrow {
+    width: 100px;
+    margin: 0;
+}
+.white {
+    color: white;
+}
+
+.centeredBanner .splashSection {
+    top: calc(50% - 150px);
+    height: 300px;
+}
+
+.videoSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoSection iframe {
+    margin: 5px 10px;
+}
+
+.sectionProducts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionProducts .header {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.125;
+    height: auto;
+}
+
+.sectionProducts .productReel {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.sectionProducts .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.sectionProducts img {
+    width: 12vw;
+}
+
+.sectionProducts .name {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.2;
+    color: red;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.sectionProducts .price {
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.featureList {
+    height: 353px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature {
+    flex-grow: 1;
+    width: 100%;
+    padding: 0px 20px;
+    margin: 10px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature img {
+    image-rendering: -webkit-optimize-contrast;
+    height: 85.5px;
+}
+
+.feature div {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.125;
+}
+
+.feature p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.bottomInfo {
+    height: 289px;
+    padding: 50px 100px 15px 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: #f7f7f7;
+}
+
+.bottomInfo .img,
+.bottomInfo .explore,
+.bottomInfo .about {
+    width: 100%;
+    flex-grow: 1;
+}
+
+.bottomInfo div {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.bottomInfo p,
+.bottomInfo a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    text-decoration: none;
+}
+
+.bottomInfo a:hover {
+    color: #ff4a32;
+    transition: color 0.3s ease-in-out;
+}
+
+.bottomInfo .explore ul {
+    padding: 0;
+    list-style: none;
+    margin: 10px 0px;
+}
+.bottomInfo .explore li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1;
+}
+
+.bottomInfo .about p {
+    margin: 0;
+}
+
+.footer {
+    height: 50px;
+    background-color: white;
+    font-size: smaller;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
 }
