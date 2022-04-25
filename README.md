@@ -12,5 +12,8 @@ A copy of the Boosted Board website homepage made using pure HTML, CSS and JS.
 
 ## Authors
 
-K Davidson  
-[@KDavidson](mailto:kaushdavidson@icloud.com)
+[@K Davidson](mailto:kaushdavidson@icloud.com)
+
+## Acknowledgments
+
+-   [Boosted USA - Original Site](https://boostedusa.com/)
