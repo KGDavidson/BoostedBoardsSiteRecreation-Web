@@ -34,6 +34,7 @@ body {
     height: 75px;
     display: flex;
     flex-direction: row;
+    align-items: center;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -91,6 +92,25 @@ body {
 
 .navLink:hover {
     color: #ff4a32;
+}
+.navBar .icons {
+    margin-left: auto;
+}
+
+.navBar .icons a {
+    text-decoration: none;
+    padding-right: 8px;
+}
+
+.navBar .icons svg {
+    height: 18px;
+    width: 18px;
+    fill: black;
+    transition: fill 0.2s ease-in-out;
+}
+
+.navBar .icons svg:hover {
+    fill: #ff4a32;
 }
 
 .subnav:hover .subnavContent {
@@ -322,4 +342,53 @@ body {
     border-color: #cfcfcf;
     border-width: 2px;
     border-bottom: none;
+}
+
+.section2 {
+    margin-top: 20px;
+}
+
+.splashSection {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 30px;
+    left: calc(50% - 244px);
+    width: 488px;
+}
+
+.splashSection .h5 {
+    width: 100%;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-bottom: 12px;
+    padding-top: 17px;
+    line-height: 1.125;
+}
+
+.splashSection .h1 {
+    width: 100%;
+    margin: 0;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 12px;
+    letter-spacing: 1px;
+    line-height: 1.125;
+}
+
+.splashSection .p {
+    width: 100%;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.125;
+    padding-bottom: 24px;
+}
+
+.splashLink.wide {
+    width: 200px;
 }
