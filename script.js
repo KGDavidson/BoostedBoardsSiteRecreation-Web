@@ -1,8 +1,13 @@
 function scrolled() {
-    if (scrollY > 2) {
-        document.getE;
+    if (scrollY > 28) {
+        document
+            .getElementsByClassName("navBar")[0]
+            .toggleAttribute("stuck", true);
+    } else {
+        document
+            .getElementsByClassName("navBar")[0]
+            .toggleAttribute("stuck", false);
     }
-    console.log(this.scrollY);
 }
 
 window.addEventListener("scroll", scrolled, false);
