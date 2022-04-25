@@ -1,6 +1,6 @@
 # BoostedBoardsSiteRecreation-Web
 
-![UI](https://i.postimg.cc/nVvc9c0S/GIF-25-04-2022-05-48-58.gif)
+![UI](https://i.postimg.cc/26MKmZqk/ezgif-4-53eed4798a.gif)
 
 ## Description
 
