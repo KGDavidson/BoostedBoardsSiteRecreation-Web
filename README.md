@@ -20,15 +20,9 @@ A recreation of the Boosted Board website homepage made using pure HTML, CSS and
 
 ---
 
-## Setup
-
-Clone this repo to your desktop.
-
----
-
 ## Usage
 
-Open the `index.html` file in your preferred browser.
+Clone this repo to your desktop and open the `index.html` file in your preferred browser.
 
 ---
 
